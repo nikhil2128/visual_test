@@ -32,7 +32,7 @@
 $ npm install
 ```
 
-## Running the app
+## Running the api service
 
 ```bash
 # development
@@ -43,6 +43,19 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+```
+
+## Running the database service app
+
+```bash
+# development
+$ npm run start:db
+
+# watch mode
+$ npm run start:db-dev
+
+# production mode
+$ npm run start:db-prod
 ```
 
 ## Test
